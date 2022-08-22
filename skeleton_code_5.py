@@ -10,10 +10,11 @@ def do_you_continue():
             print("sends user to quiz")
             break
 
-        # sends user back to start if answered with "no"
+        # ends program if user inputs "no".
         elif want_to_continue == "no" or want_to_continue == "n" or want_to_continue == "NO" or want_to_continue == "nO":
             print()
             print("Thanks for playing.")
+            print("END")
             break
 
         # sends user back to continue? question if input is invalid
