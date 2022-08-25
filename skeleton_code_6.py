@@ -32,7 +32,12 @@ def quiz():
         else:
             print("Incorrect")
     # Outputs the users score
+    print("**********************************")
+    print()
     print("You got "+str(score)+" right!")
+    print()
+    print("**********************************")
+    print()
     do_you_continue()
 
 
